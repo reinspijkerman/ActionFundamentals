@@ -19,8 +19,8 @@ jobs:
     steps:
       - name: Context
         run: |
-        echo "Event: ${{ github.event.name }}"
-        echo "Branch: ${{ github.ref }} in repository ${{ github.repository }}"
+          echo "Event: ${{ github.event.name }}"
+          echo "Branch: ${{ github.ref }} in repository ${{ github.repository }}"
 
       - uses: actions/checkout@v4
 
