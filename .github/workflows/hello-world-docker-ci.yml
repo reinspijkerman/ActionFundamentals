@@ -17,7 +17,7 @@ jobs:
 
       - name: Hello
         id: hello-action
-        uses: ./.github/actions/hello-world.yml
+        uses: ./.github/actions/hello-world
         with:
           who-to-greet: 'Rein'
 
